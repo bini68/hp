@@ -1,0 +1,32 @@
+_notes/
+/bower_components/
+/node_modules/
+
+.DS_Store
+.vagrant
+
+build
+dist
+*.egg-info
+*.egg/
+*.pyc
+*.swp
+
+.tox
+.coverage
+html/*
+
+# Compiled Documentation
+site/
+README.rst
+
+env/
+venv/
+.idea/
+
+# large source files
+AEM_6*
+license.properties
+
+playbooks/roles/ansible-*
+
